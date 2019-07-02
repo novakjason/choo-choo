@@ -1,0 +1,58 @@
+body {
+    background: url("../images/train.jpeg")
+}
+
+
+#employee-table th, td {
+    display: inline-block;
+    width: 16.575%;
+}
+
+.jumbotron {
+    background: #003A6F;
+    color: #FFC56C;
+}
+
+.card-header {
+    background: #003A6F;
+    color: #FFC56C;
+}
+
+.card-body {
+    background: #FFC56C;
+    color: #003A6F;
+}
+
+.btn-custom {
+    color: #FFC56C;
+    background-color: #003A6F;
+    border-color: #00488b;
+}
+  
+.btn-custom:hover {
+    color: #FFC56C;
+    background-color: #00488b;
+    border-color: #005aae;
+}
+  
+.btn-custom:focus, .btn-custom.focus {
+    box-shadow: 0 0 0 0.2rem #005aae;
+}
+  
+.btn-custom.disabled, .btn-custom:disabled {
+    color: #FFC56C;
+    background-color: #005aae;
+    border-color: #005aae;
+}
+  
+.btn-custom:not(:disabled):not(.disabled):active, .btn-custom:not(:disabled):not(.disabled).active,
+  .show > .btn-custom.dropdown-toggle {
+    color: #FFC56C;
+    background-color: #005aae;
+    border-color: #005aae;
+}
+  
+.btn-custom:not(:disabled):not(.disabled):active:focus, .btn-custom:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-custom.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #005aae;
+}

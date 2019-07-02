@@ -3,7 +3,7 @@ body {
 }
 
 
-#employee-table th, td {
+#train-table th, td {
     display: inline-block;
     width: 16.575%;
 }

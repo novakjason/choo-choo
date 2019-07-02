@@ -5,7 +5,8 @@ body {
 
 #train-table th, td {
     display: inline-block;
-    width: 16.575%;
+    width: 20%;
+    text-align: left;
 }
 
 .jumbotron {
